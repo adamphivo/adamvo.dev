@@ -1,0 +1,10 @@
+body {
+  background-color: var(--background);
+  color: var(--color);
+  font-family: var(--regular);
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  min-height: 100dvh;
+  min-width: 100dvw;
+}

@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  /* Palette URL https://coolors.co/fffafa-02040f-574ae2-5ef38c-ef233c */
+  --background: #fffafa;
+  --color: #02040f;
+  --blue: #574ae2;
+  --green: #5ef38c;
+  --red: #5ef38c;
+  /* Fonts */
+  --bold: "alma_monobold";
+  --heavy: "alma_monoheavy";
+  --regular: "alma_monoregular";
+  --thin: "alma_monothin";
+  --light: "alma_monolight";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #02040f;
+    --color: #fffafa;
+  }
+}
